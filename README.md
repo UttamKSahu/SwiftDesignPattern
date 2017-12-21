@@ -15,9 +15,11 @@ ButtonDetail accept three parameters
 
 Example:
 
+
 func whiteButton() {
         let whiteButton = ButtonFactory.getButton(buttonDetail: ButtonDetail(buttonTitle: "WHITE", buttonType: .whiteRoundedRect, rect: CGRect(x: 50, y: 100, width: view.frame.size.width - 100 , height: 50))).createButton()
         view.addSubview(whiteButton)
+	
     }
     
     func blackButton() {
